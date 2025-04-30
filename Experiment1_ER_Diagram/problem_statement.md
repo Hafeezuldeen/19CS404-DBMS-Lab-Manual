@@ -6,7 +6,6 @@ To understand and apply the concepts of ER modeling by creating an ER diagram fo
 ## 📚 Purpose:
 The purpose of this workshop is to gain hands-on experience in designing ER diagrams that visually represent the structure of a database including entities, relationships, attributes, and constraints.
 
----
 
 ## 🧪 Choose One Scenario:
 ### 🔹 Scenario 1: University Database
@@ -20,7 +19,6 @@ Design a database to manage students, instructors, programs, courses, and studen
 - Track course enrollments by students and enrollment date.  
 - Add support for prerequisites (some courses require others).
 
----
 
 ### 🔹 Scenario 2: Hospital Database
 Design a database for patient management, appointments, medical records, and billing.
@@ -32,7 +30,6 @@ Design a database for patient management, appointments, medical records, and bil
 - Medical records with treatments, diagnosis, test results.  
 - Billing and payment details for each appointment.
 
----
 
 ## 📝 Tasks:
 1. Identify entities, relationships, and attributes.  
@@ -44,7 +41,6 @@ Design a database for patient management, appointments, medical records, and bil
    - Why you chose the entities and relationships.  
    - How you modeled prerequisites or billing.  
 
----
 
 # ER Diagram Submission - Student Name
 
@@ -56,7 +52,6 @@ Design a database for patient management, appointments, medical records, and bil
 ![WhatsApp Image 2025-04-30 at 15 46 13_21870446](https://github.com/user-attachments/assets/810ab8ba-89d4-4d55-ad3b-32665dcef048)
 
 
----
 
 ### Entities and Attributes:
 
@@ -68,7 +63,6 @@ Design a database for patient management, appointments, medical records, and bil
 - **Rooms**: RNO, Floor  
 - **Records**: Record No, Date  
 
----
 
 ### Relationships and Constraints:
 
@@ -96,20 +90,17 @@ Design a database for patient management, appointments, medical records, and bil
   - Cardinality: One-to-Many  
   - Participation: Partial  
 
----
 
 ### Extension (Billing):
 
 The billing aspect is indirectly modeled through the **"Purchase Medicines"** relationship between the **Patient** and **Pharmacy**, where details such as **DOM (Date of Manufacture)** and **DOE (Date of Expiry)** are tracked. This implies billing and inventory tracking. Additionally, doctor consultations and room allocations are billable services implicitly modeled in the relationships.
 
----
 
 ### Design Choices:
 
 Entities were selected based on real-world hospital workflow components: patients, rooms, doctors, nurses, pharmacists, and receptionists. Relationships like *consults*, *guides*, *instructs*, and *allocated to* reflect real interactions and responsibilities.  
 Billing was incorporated through the pharmacy-patient connection and service interactions. Cardinality and participation were based on logical constraints (e.g., a patient is allocated one room, but a doctor can consult many patients).
 
----
 
 ### RESULT
 
