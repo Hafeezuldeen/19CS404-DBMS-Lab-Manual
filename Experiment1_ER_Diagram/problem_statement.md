@@ -9,7 +9,6 @@ The purpose of this workshop is to gain hands-on experience in designing ER diag
 ---
 
 ## 🧪 Choose One Scenario:
-
 ### 🔹 Scenario 1: University Database
 Design a database to manage students, instructors, programs, courses, and student enrollments. Include prerequisites for courses.
 
