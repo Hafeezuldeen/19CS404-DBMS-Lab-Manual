@@ -54,7 +54,7 @@ Design a database for patient management, appointments, medical records, and bil
 
 ### ER Diagram:
 **HOSPITAL DATABASE:**  
-[Hospital ER Diagram.pdf](https://github.com/user-attachments/files/19975235/Hospital.ER.Diagram.pdf)
+![WhatsApp Image 2025-04-30 at 15 46 13_21870446](https://github.com/user-attachments/assets/810ab8ba-89d4-4d55-ad3b-32665dcef048)
 
 
 ---
