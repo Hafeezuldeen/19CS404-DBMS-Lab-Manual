@@ -1,5 +1,5 @@
 # Experiment 6: Joins
-
+## Date: 07.04.2025
 ## AIM
 To study and implement different types of joins.
 
