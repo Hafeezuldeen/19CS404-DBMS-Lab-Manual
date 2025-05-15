@@ -1,5 +1,5 @@
 # Experiment 4: Aggregate Functions, Group By and Having Clause
-
+## Date: 17.03.2025
 ## AIM
 To study and implement aggregate functions, GROUP BY, and HAVING clause with suitable examples.
 
